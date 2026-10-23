@@ -1,0 +1,11 @@
+# Python Basics to Advanced Example
+# Run: python simple_calculator.py
+
+a = float(input("First number: "))
+op = input("Operator (+ - * /): ")
+b = float(input("Second number: "))
+if op == "+": print(a+b)
+elif op == "-": print(a-b)
+elif op == "*": print(a*b)
+elif op == "/" and b != 0: print(a/b)
+else: print("Invalid operation")
